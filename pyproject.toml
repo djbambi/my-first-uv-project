@@ -9,6 +9,7 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = [
-    "pytest>=9.0.2",
-]
+dev = ["pytest>=9.0.2"]
+
+[project.scripts]
+rpcats = "main:main"
