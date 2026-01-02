@@ -4,12 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12.0"
-dependencies = [
-    "requests>=2.32.5",
-]
+dependencies = ["requests>=2.32.5"]
 
 [dependency-groups]
 dev = ["pytest>=9.0.2"]
 
 [project.scripts]
 rpcats = "main:main"
+
+[build-system]
+requires = ["setuptools>=78.1.0", "wheel>=0.45.1"]
+build-backend = "setuptools.build_meta"
