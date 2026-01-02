@@ -2,7 +2,6 @@ import argparse
 import sys
 
 import requests
-import rich
 
 def get_breeds_info():
     response = requests.get("https://api.thecatapi.com/v1/breeds")
